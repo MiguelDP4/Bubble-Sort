@@ -50,7 +50,7 @@ print 'Ordered integer array: '
 print int_array
 puts ' '
 
-string_array = %w['hi', 'hello', 'hey', 'another_string', 'haloo', 'testing']
+string_array = %w[hi hello hey another_string haloo testing]
 print 'Unordered string array: '
 print string_array
 bubble_sort_by(string_array) { |string1, string2| string1.length - string2.length }
