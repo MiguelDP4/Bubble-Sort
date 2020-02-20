@@ -45,9 +45,10 @@ def bubble_sort_by(array)
   print array
 end
 
-bubble_sort_by(["hi","hello","hey"]) {|string1,string2| string1.length-string2.length}
+int_array = [7,5,8,3,4,6,2,4,15,2,23]
+bubble_sort(int_array)
+print int_array
 
+string_array = ["hi","hello","hey", "another_string", "haloo", "testing"]
 
-#test_array = [7,5,8,3,4,6,2,4,15,2,23]
-#bubble_sort(test_array)
-#print test_array
+bubble_sort_by(string_array) {|string1,string2| string1.length-string2.length}
