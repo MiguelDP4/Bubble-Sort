@@ -19,11 +19,11 @@ Download the .rb file and run it from the terminal
 - Github: [@MiguelDP4](https://github.com/MiguelDP4)
 - Twitter: [@twitterhandle](https://twitter.com/Mike_DP4)
 
-👤 **Author2**
+👤 **Brenda Yucra**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@bren2102](https://github.com/bren2102) 
+- Twitter: [@BrendaYucra2](https://twitter.com/BrendaYucra)
+- Linkedin: [Brenda Yucra](https://www.linkedin.com/in/brenda-yucra-51980681/)
 
 ## 🤝 Contributing
 
