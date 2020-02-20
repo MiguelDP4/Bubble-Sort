@@ -10,8 +10,6 @@ def bubble_sort(array)
           temp = array[j]
           array[j] = array[j+1]
           array[j+1] = temp
-          print array
-          puts " "
           not_sorted = true
         end
       j += 1
@@ -34,8 +32,6 @@ def bubble_sort_by(array)
           temp = array[j]
           array[j] = array[j+1]
           array[j+1] = temp
-          print array
-          puts " "
           not_sorted = true
         end
       j += 1
@@ -46,9 +42,17 @@ def bubble_sort_by(array)
 end
 
 int_array = [7,5,8,3,4,6,2,4,15,2,23]
-bubble_sort(int_array)
+print "Unordered integer array: "
 print int_array
+puts " "
+bubble_sort(int_array)
+print "Orderede integer array: "
+print int_array
+puts " "
 
 string_array = ["hi","hello","hey", "another_string", "haloo", "testing"]
-
+print "Unordered string array: "
+print string_array
 bubble_sort_by(string_array) {|string1,string2| string1.length-string2.length}
+print "Ordered string array: "
+print string_array

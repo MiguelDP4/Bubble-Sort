@@ -35,4 +35,4 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- We thank microverse for this learning opportunity
+- We thank microverse for this learning opportunity.
