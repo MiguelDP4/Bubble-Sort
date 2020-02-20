@@ -1,9 +1,3 @@
-def swap(val1, val2)
-  temp = val1
-  val1 = val2
-  val2 = temp
-end
-
 def bubble_sort(array)
   i = 0
   j = 0
