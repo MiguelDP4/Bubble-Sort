@@ -16,6 +16,7 @@ def bubble_sort(array)
     end
     i += 1
   end
+  return array
 end
 
 def bubble_sort_by(array)
@@ -38,21 +39,21 @@ def bubble_sort_by(array)
     end
     i += 1
   end
-  print array
+  return array
 end
 
 int_array = [7, 5, 8, 3, 4, 6, 2, 4, 15, 2, 23]
 print 'Unordered integer array: '
 print int_array
 puts ' '
-bubble_sort(int_array)
 print 'Ordered integer array: '
-print int_array
+print bubble_sort(int_array)
 puts ' '
 
 string_array = %w[hi hello hey another_string haloo testing]
 print 'Unordered string array: '
 print string_array
-bubble_sort_by(string_array) { |string1, string2| string1.length - string2.length }
+puts ' '
 print 'Ordered string array: '
-print string_array
+puts ' '
+print bubble_sort_by(string_array) { |string1, string2| string1.length - string2.length }
