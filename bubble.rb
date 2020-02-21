@@ -16,7 +16,7 @@ def bubble_sort(array)
     end
     i += 1
   end
-  return array
+  array
 end
 
 def bubble_sort_by(array)
@@ -38,7 +38,7 @@ def bubble_sort_by(array)
     end
     i += 1
   end
-  return array
+  array
 end
 
 int_array = [7, 5, 8, 3, 4, 6, 2, 4, 15, 2, 23]
