@@ -2,6 +2,7 @@ def bubble_sort(array)
   i = 0
   j = 0
   not_sorted = true
+  result_array = []
   while i < array.length - 1 && not_sorted
     not_sorted = false
     j = 0
@@ -16,13 +17,13 @@ def bubble_sort(array)
     end
     i += 1
   end
-  result_array = array
+  array
 end
 
 def bubble_sort_by(array)
   i = 0
   j = 0
-
+  result_array = []
   not_sorted = true
   while i < array.length - 1 && not_sorted
     not_sorted = false
@@ -39,7 +40,7 @@ def bubble_sort_by(array)
     end
     i += 1
   end
-  result_array = array
+  array
 end
 
 int_array = [7, 5, 8, 3, 4, 6, 2, 4, 15, 2, 23]
