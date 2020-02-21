@@ -2,7 +2,6 @@ def bubble_sort(array)
   i = 0
   j = 0
   not_sorted = true
-  result_array = []
   while i < array.length - 1 && not_sorted
     not_sorted = false
     j = 0
@@ -23,7 +22,6 @@ end
 def bubble_sort_by(array)
   i = 0
   j = 0
-  result_array = []
   not_sorted = true
   while i < array.length - 1 && not_sorted
     not_sorted = false
